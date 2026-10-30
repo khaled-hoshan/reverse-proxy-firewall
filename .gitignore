@@ -1,0 +1,31 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*token*
+*secret*
+
+# Private keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+
+# Let's Encrypt data
+letsencrypt/
+certs/
+archive/
+private/
+
+# Backups and temporary files
+*.bak
+*.old
+*.tmp
+*~
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
