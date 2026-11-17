@@ -1,7 +1,5 @@
 # Nginx Reverse Proxy & Perimeter Firewall
 
-A practical DevOps project completed as part of the **Elevvo Cloud & DevOps Engineering Internship**.
-
 The project configures Nginx as a reverse proxy for a Python web application, secures incoming traffic using UFW, and enables HTTPS using Let's Encrypt and Certbot with DNS-01 validation through DuckDNS.
 
 ## Project Objectives
@@ -174,9 +172,3 @@ For common issues and diagnostic commands, see:
 - TLS private keys and certificates are not committed.
 - Nginx version disclosure is disabled.
 
-## Project Context
-
-**Program:** Elevvo Cloud & DevOps Engineering Internship
-**Task:** Reverse Proxy & Perimeter Firewall
-**Environment:** Ubuntu 24.04 VM on Arch Linux host
-**Status:** Configuration and local verification completed.
